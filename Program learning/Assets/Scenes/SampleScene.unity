@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 50962151}
   - component: {fileID: 50962150}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: dog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 361450701}
   - component: {fileID: 361450700}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: cat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
