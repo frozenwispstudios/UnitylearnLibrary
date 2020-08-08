@@ -15,7 +15,7 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sounds[0].GetComponent<AudioSource>().Play();
+        //sounds[0].GetComponent<AudioSource>().Play();
     }
 
     // Update is called once per frame
