@@ -24,7 +24,7 @@ public class ExplosiveBarrelManager : MonoBehaviour
             float halfHeight = (managerPos.y - barrelPos.y) * 0.5f;
             Vector3 Offset = Vector3.up * halfHeight; 
             Handles.DrawBezier(managerPos,barrelPos , managerPos- Offset,barrelPos + Offset, barrel.type.radiusColor,EditorGUIUtility.whiteTexture,1f);
-
+            barrel.GetComponent<MeshRenderer>().material.color = barrel.type.radiusColor;
             //Gizmos.DrawLine(transform.position, barrel.transform.position);
             //Handles.DrawAAPolyLine(transform.position, barrel.transform.position);
         } 

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6c1cc50f560b4146be36de868b22985, type: 3}
   m_Name: GreenBarrel
   m_EditorClassIdentifier: 
-  Radius: 5
-  Damage: 10
+  radius: 5
+  damage: 10
   radiusColor: {r: 0.21168563, g: 0.6698113, b: 0.22699754, a: 1}
